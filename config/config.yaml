@@ -1,4 +1,3 @@
-# 数据源平台配置
 platforms:
   - weibo
   - zhihu
@@ -7,12 +6,9 @@ platforms:
   - tieba
   - kuaishou
 
-# 频率关键词文件路径
 frequency_words_path: "config/frequency_words.txt"
-
-# 定时抓取间隔 单位分钟
 crawl_interval: 30
 
-# 推送配置
 notification:
+  push_mode: feishu
   title: "本地家教新线索"
